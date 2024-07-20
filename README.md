@@ -1,5 +1,5 @@
 # Python-Basics
-This repo contains Python basics. 
+Introduction to Python:
 1. First Acquaintance 
 2. Variables and Types
 3. Conditional Statements 
@@ -8,9 +8,10 @@ This repo contains Python basics.
 6. Functions 
 
 
-Introduction to Python
-Data Types in Python
-Python Data Structures
-Conditional Statements in Python
-Python Loops Tutorial
-Python Functions Tutorial
+Sections need to complete the Course 
+a. Introduction to Python
+b. Data Types in Python
+c. Python Data Structures
+d. Conditional Statements in Python
+e. Python Loops Tutorial
+f. Python Functions Tutorial
