@@ -1,0 +1,16 @@
+This process simply joins two strings together. In Python, you can concatenate two strings using the + operator, much like you'd add numbers.
+
+Concatenation won't automatically insert spaces between the strings you're joining.
+For example:
+# Article and word
+article = "The"
+country = "Netherlands"
+# Output result of the concatenations
+print(article + country)
+print(article + " " + country) # Add blank space between
+
+o/p:
+TheNetherlands
+The Netherlands
+
+Keep in mind, you can only concatenate strings with other strings. In other words, you can't directly concatenate a word like 'word' with a number such as 1. To achieve this, first convert the number to a string using the str(1) function, and then concatenate.

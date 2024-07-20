@@ -1,0 +1,5 @@
+Variables in programming act like placeholders for data. 
+What if you want to use those number again while coding? 
+Doing the math all over again doesn't make much sense.
+
+To remember a value for later, we give it a name by using a variable. The equals sign "=" lets us set a value for that variable. For instance, you can set the variable "year" to the value "2024", and from there, you can display it or do more math with it.

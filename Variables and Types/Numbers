@@ -1,0 +1,23 @@
+Python has the following numerical types:
+
+int - for integer numbers (e.g., 3, -1, 1003);
+float - for decimal numbers (e.g., 2.8, 3.333, -3.0);
+complex - for complex numbers (e.g., 3+2j).
+
+If you need to switch between numerical types, use int() to convert to integer, 
+float() for decimal, and complex() for complex number. 
+When you convert a decimal to an integer, Python drops the decimal portion 
+without rounding.
+
+For example
+# Numbers
+int_num = 11
+real_num = 16.83
+
+# Displaying original and converted numbers (integer - to float, and vice versa)
+print(int_num, float(int_num))
+print(real_num, int(real_num))
+
+Output:
+11 11.0
+16.83 16

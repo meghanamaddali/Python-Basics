@@ -1,0 +1,10 @@
+Here are some simple math operations used in Python
+
++ for adding numbers/strings
+- for substraction
+* for multiplying numbers 
+/ for dividing numbers 
+// for getting an integer after the numbers are divided 
+% for getting the remainder when numbers are divided 
+** for exponential 
+

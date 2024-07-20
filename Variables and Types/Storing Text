@@ -1,0 +1,16 @@
+In the first chapter, you learned how to display the message "Hello world!" in Python. This message is known as a string. In Python, strings are used to store text, which can also include numbers.
+
+To store text in Python, you need to surround it with quotation marks (either single or double). For instance, you can store the word "Python" in the language variable and then display it:
+
+for example:
+# Save string within variable
+language = 'Python'
+# Output string
+print(language)
+
+Output:
+Python
+
+Quotation marks are mandatory. If you omit them, you'll get an error.
+
+If you want to change an object into a string type, use the str() function.

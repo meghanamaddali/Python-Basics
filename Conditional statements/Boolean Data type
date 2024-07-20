@@ -1,0 +1,23 @@
+Welcome to section three! In this section, we'll dive into another Python data type: the boolean or logical type. Booleans can only have one of two values: True or False. This data type comes into play when evaluating logical conditions.
+
+Here are the logical operators for comparison:
+
+== equal to;
+!= not equal to;
+> greater than;
+< less than;
+>= greater than or equal to;
+<= less than or equal to.
+
+When you apply these operators, the result will be a boolean value: True if the condition is met, and False if it isn't. For instance, consider the following evaluations:
+
+# Check if 1 equals 1
+print(1 == 1)
+# Check if "abc" equals "aBc"
+print("abc" == "aBc")
+# Check if 87*731 greater than or equal to 98*712
+print(87*731 >= 98*712)
+
+True
+False
+False

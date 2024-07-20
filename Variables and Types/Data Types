@@ -1,0 +1,19 @@
+In Python, like in many other programming languages, you can work with objects of various types. It's essential to understand the differences among them, especially when considering how they're stored in computer memory. Here are the data types available in Python:
+
+Text: str;
+Numeric: int, float, complex;
+Sequence: list, tuple, range;
+Mapping: dict;
+Set: set, frozenset;
+Boolean: bool;
+Binary: bytes, bytearray, memoryview.
+
+If you're curious about the type of a specific variable, use the type() function. And remember, always use the print() function to have Python display the result. For instance:
+# Create some variable
+var = 12
+# Check variable type
+print(type(var))
+
+If you run this code your output will be 
+<class 'int'> 
+whcih tells us what type of data is passed to variable 'var'

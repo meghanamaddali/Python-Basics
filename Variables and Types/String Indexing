@@ -1,0 +1,37 @@
+Let's understand how to access specific characters within a string.
+
+To access a specific character in a string, use square brackets with an index number inside. Remember, the index number is not the actual position of the character because indexing in Python starts at 0. Consider the example below for clarity.
+
+Position: 1 2 3 4 5 6 7 8 9 10
+Index:    0 1 2 3 4 5 6 7 8 9 
+Word:     c o d e f i n i t y 
+
+# Initial string
+site = "codefinity"
+# Get the letters 'o' and 'y'
+print(site[1], site[9])
+
+o/p:
+o y 
+
+Negative Indexing:
+You can also index from the end of the string. In this case, the last element has an index of -1, the second-to-last is -2, and so on.
+Keep in mind that -1 is the go-to way to access the last element.
+
+Position: 1    2  3  4  5  6  7  8  9 10 
+Index:    0    1  2  3  4  5  6  7  8  9 
+Word:     c    o  d  e  f  i  n  i  t  y 
+Negative  -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 
+indexing
+
+Length of the string:
+Now that you're familiar with referencing characters in a string, you might wonder how to determine the total number of characters in that string. Fortunately, Python provides the len() function for that. Just pass the string or the variable holding the string as an argument.
+
+for example:
+# Initial string
+site = "codefinity"
+# Get the string length
+print(len(site))
+
+o/p:
+10 

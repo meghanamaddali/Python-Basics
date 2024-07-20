@@ -1,0 +1,9 @@
+what if you want to grab several consecutive characters? Sure, you can pick them out individually, but that seems a tad tedious, doesn't it?
+
+It sure does. To retrieve multiple characters in one go, you can use a technique called slicing. For this, employ square brackets and denote the beginning and end indices with a colon : in between. It's crucial to note that the end index isn't included. So, when you use [1:5], you're selecting characters at indices 1 through 4. Check out the example below.
+
+Position: 1 2 3 4 5 6 7 8 9 10
+Index:    0 1 2 3 4 5 6 7 8 9 
+Word:     c o d e f i n i t y 
+
+As you'll notice, the end position is always one more than the last character's index you want to include. In the above example, there are 10 positions, but the final index is 9.
